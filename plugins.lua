@@ -34,6 +34,15 @@ local plugins = {
   },
 
   {
+    "nvim-tree/nvim-web-devicons",
+    opts = {
+      override = {
+        ml = {icon="", name="OCaml"},
+      },
+    },
+  },
+
+  {
     "nvim-tree/nvim-tree.lua",
     opts = overrides.nvimtree,
   },
