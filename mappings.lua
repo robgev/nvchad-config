@@ -7,6 +7,10 @@ M.general = {
     ["|"] = { "<cmd>vsplit<cr>", desc = "Vertical Split" },
     ["\\"] = { "<cmd>split<cr>", desc = "Horizontal Split" }
   },
+
+  v = {
+    ["."] = { ":norm.<CR>", desc = "Make visual mode . work as normal mode's ."}
+  },
 }
 
 -- more keybinds!
