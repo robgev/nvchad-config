@@ -17,6 +17,7 @@ local sources = {
 
   -- cpp
   b.formatting.clang_format,
+  b.formatting.ocamlformat,
 }
 
 null_ls.setup {
